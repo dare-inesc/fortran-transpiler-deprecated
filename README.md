@@ -29,15 +29,15 @@ Clava already supports the following transformations:
 
 The next steps for the Fortran source-to-source compiler are as follows:
 
-### Phase 1 [M2] 
+### Phase 1
 - Developing an AST-based IR to represent Fortran that is capable of generating Fortran code back from the IR [Java]
 - Dumper based on the Flang parser capable of outputting the necessary information to reconstruct an IR of the source code [C++]
 
-### Phase 2 [M4]
+### Phase 2
 - Fortran Transpiler [Java]
 - Base API [TypeScript]
 
-### Phase 3 [M6]
+### Phase 3
 - Library for Fortran transformations, which should include  [TypeScript]:
   - Loop unrolling
   - Loop tiling
